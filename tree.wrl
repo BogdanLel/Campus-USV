@@ -5,10 +5,10 @@ Group {
 		Transform {
 			translation	0 0 0
 			children [
-				Billboard {
+				DEF	Tree Billboard {
 					children [
 						Shape {
-							appearance DEF Tree Appearance {
+							appearance Appearance {
 								texture	ImageTexture {
 									url	"https://www.web3d.org/x3d/content/examples/Vrml2Sourcebook/Chapter17Textures/tree1.png"
 								}
