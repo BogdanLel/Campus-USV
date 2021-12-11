@@ -1,0 +1,244 @@
+#VRML V2.0 utf8
+
+#corp a	+ e
+Transform {
+			translation	40 -2 50
+			scale 3.5 2 3.5
+			children [
+			Group {
+	children [
+			  Shape{
+	appearance DEF White Appearance {
+		material  DEF blue Material {}
+		texture	ImageTexture {
+			url	"perete.jpg"
+		repeatT FALSE 
+	    repeatS TRUE }
+			}
+	 },
+				Transform {	
+						translation	2.0 1.5 -4.0
+						children Shape {
+							appearance DEF Cladire Appearance {
+							material Material {}
+							texture	ImageTexture {
+								url	"C:\Users\STUDENT\Desktop\GC\perete.jpg" }
+							}
+							geometry Box {
+								size 16 5 2
+								}
+							}
+						}
+
+				Transform {
+						translation	-6.5 1.5 0.0
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 3 5 10
+								}
+							}
+						}
+				Transform {				#A Bolt
+						translation	6.5 1.5 0.0
+						children Shape {
+						appearance USE	White
+							geometry Box {
+								size 5 5 10
+							}
+						}
+					}
+				Transform {
+						translation	4 1.5 -2.5
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 1 5 3
+								}
+							}
+						}
+				Transform {
+						translation	4 1.5 4
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 1 5 3
+								}
+							}
+						}
+
+				Transform {
+						translation	10 1.5 -8.0
+						children Shape {
+							appearance USE	White
+							geometry Box {
+								size 2 5 10
+							}
+						}
+					}
+				 Transform {			  #A
+						translation	6.0 1.5 6
+						children Shape {
+							appearance USE	White
+							geometry Box {
+								size 18 5 2
+							}
+						}
+					}
+				 Transform {
+						translation	4.2 1.5 5.2
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 5 5 2
+								}
+							}
+						}
+				 Transform {
+						translation	7.5 1.5 5.2
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 5 5 2
+								}
+							}
+						}
+				Transform {					 #aula
+						translation	12.5 1.5 8
+						children Shape {
+							appearance USE	White
+							geometry Box {
+								size 6 5 6
+							}
+						}
+					}
+				Transform {
+						translation	-5 1.5 1.6
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 3 5 1
+								}
+							}
+						}
+				Transform {	   #spre corpul E
+						translation	-6.5 1.5 6
+						children Shape {
+							appearance USE	White
+							geometry Box {
+								size 1 5 10
+							}
+						}
+					}
+			    Transform {
+						translation	-15 1.5 10
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 18 5 2
+								}
+							}
+						}
+				Transform {
+					translation	 -10.7 1.5 13
+					children Shape {
+						appearance USE	White
+						
+						geometry Cylinder {
+							radius 3.5
+							height 5
+						}
+					 }
+				  }
+				Transform {
+						translation	-8.269 1.5 12
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 2 5 3
+								}
+							}
+						}
+				 Transform {				 #blocul E 
+						translation	-17 1.5 13
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 14 5 6.8
+								}
+							}
+						}
+				Transform {
+						translation	-26 1.5 15
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 5 5 6
+								}
+							}
+						}
+				Transform {
+						translation	-26.7 1.5 16
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 5.5 5 6
+								}
+							}
+						}
+				Transform {
+						translation	-29.5 1.5 16.5
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 3 5 3
+								}
+							}
+						}
+				Transform {
+						translation	-30 1.5 13.4
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 1.6 5 0.8
+								}
+							}
+						}
+				Transform {
+						translation	-20 1.5 16.8
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 12 5 1
+								}
+							}
+						}
+				Transform {						
+						translation	-11 1.5 16.8
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 2 5 1
+								}
+							}
+						}
+
+		]
+	}
+			]
+},

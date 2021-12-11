@@ -1,0 +1,61 @@
+#VRML V2.0 utf8
+
+#Corpul D
+Transform {
+	translation	53.2 -2 -5
+	scale 2.5 2 2.5
+	children [
+Group{
+     
+	children [
+Shape{
+	appearance DEF White Appearance {
+		material  DEF blue Material {}
+		texture	ImageTexture {
+			url	"C:\Users\STUDENT\Desktop\GC\perete.jpg"
+		repeatT FALSE 
+	    repeatS TRUE }
+			}
+	 },
+Transform {
+	translation	-8 1.5 5 
+    rotation 0 1 0 1.57 
+
+    children [
+    Shape{
+	 appearance USE	White
+
+	 geometry Box {
+		 size  9.40 5.05 4.6
+ 
+	 } }  ] } 
+Transform {
+	translation	-6 1.5 5.5 
+     children [
+
+    Shape{
+		appearance USE	White
+		
+	geometry Box {
+	    size 4.1 5 2.1 } } ] }
+		
+#sala de sport
+Transform {
+	translation	-0.1 1.5  0 
+	children [
+
+	    Shape{
+	appearance Appearance {
+		material USE blue
+			texture	ImageTexture {
+				repeatS FALSE
+			url "C:\Users\STUDENT\Desktop\GC\perete.jpg"}
+		}
+	geometry Box {
+		size 20.4 5 4.9 } } ] }
+
+
+] 
+}
+]
+}

@@ -1,0 +1,76 @@
+#VRML V2.0 utf8
+
+#Camin nr4
+Transform {
+			translation	-245 2 -25
+			scale 1.5 2 1.5
+			children [
+			Group {
+	children [
+		Shape{
+	appearance DEF White Appearance {
+		material  DEF blue Material {}
+		texture	ImageTexture {
+			url	"perete.jpg"
+		repeatT FALSE 
+	    repeatS TRUE }
+			}
+	 },
+		Transform {
+			translation	0 0 5 
+			children [
+			Shape {
+				appearance USE	White
+				geometry Box {size 5.0 6 15.0}
+			}
+			]
+		},
+		Transform {
+			translation	15.0 0 0
+			children [
+				Shape {
+					appearance USE	White
+					geometry Box {size 35.0 6 10.0}
+				}
+			]
+		},
+		Transform {
+			translation	14 0 -15
+			children [
+				Shape {
+					appearance USE	White
+					geometry Box {size 18.0 6 35.0}
+				}
+			]
+		},
+		Transform {
+			translation	15.0 0 -35
+			children [
+				Shape {
+					appearance USE	White
+					geometry Box {size 35.0 6 10.0}
+				}
+			]
+		},
+		Transform {
+			translation	0 0 -40 
+			children [
+			Shape {
+				appearance USE	White
+				geometry Box {size 5.0 6 20.0}
+			}
+			]
+		},
+		Transform {
+			translation	0 0 -17 
+			children [
+			Shape {
+				appearance USE	White
+				geometry Box {size 10.0 6 5.0}
+			}
+			]
+		},
+	]
+}
+			]
+},
