@@ -2,14 +2,6 @@
 Viewpoint {
 		   position	-20 50 300
 }
-
-
-
-
-								
-
-
-
 Background {
     skyColor [
         0.0 0.2 0.7,
@@ -24,9 +16,6 @@ Background {
     ]
     groundAngle [ 1.309, 1.571 ]
 }
-
-
-
 Transform{
 	translation	-30  -4.05 20
 	children [
@@ -580,10 +569,13 @@ Transform {
 },
 
 #teren
-Group {
+#VRML V2.0 utf8
+
+ Group {
 	children [
 Transform {
 			translation	-165 -3.7 -50
+			rotation 0 1 0 1.57
 			children [
 					Transform {
 			children [
@@ -591,9 +583,10 @@ Transform {
 			appearance Appearance {
 				material Material {}
 				texture	ImageTexture {
-					url "C:\Users\STUDENT\Desktop\GC\teren.png"}
+					url "C:\Users\STUDENT\Desktop\campus\teren.jpg"}
+			
 				}
-				geometry	Box	{size 40 0.5 60}
+				geometry Box{size 80 0.5 40}
 			}
 		]
 }
@@ -840,10 +833,8 @@ Group {
 			translation	0 1.5 0
 			children [
 				Shape {
-					appearance Appearance {material	Material {}
-						texture	ImageTexture {url "perete.jpg"}
-					}
-						geometry Cylinder {
+					appearance USE	White
+					geometry Cylinder {
 					radius 5.0 
 					height 5.0}
 				}
@@ -883,7 +874,7 @@ Transform {
 					shininess .51
 				}
 				texture	ImageTexture {
-					url "snow.jpg"}
+					url "C:\Users\STUDENT\Desktop\GC\cox.jpg"}
 				}
 				geometry	Box	{size 225 0.1 200}
 			}
@@ -898,12 +889,7 @@ Transform {
 			children [
 		Shape {
 			appearance Appearance {
-				material Material {
-					diffuseColor .32 .54 .26
-					specularColor .46 .46 .46
-					ambientIntensity .0933
-					shininess .51
-				}
+				material Material {}
 				}
 				geometry	Box	{size 200 0.105 20}
 			}
@@ -918,12 +904,7 @@ Transform {
 			children [
 		Shape {
 			appearance Appearance {
-				material Material {
-					diffuseColor .32 .54 .26
-					specularColor .46 .46 .46
-					ambientIntensity .0933
-					shininess .51
-				}
+				material Material {}
 				}
 				geometry	Box	{size 200 0.105 5}
 			}
@@ -938,12 +919,7 @@ Transform {
 			children [
 		Shape {
 			appearance Appearance {
-				material Material {
-					diffuseColor .32 .54 .26
-					specularColor .46 .46 .46
-					ambientIntensity .0933
-					shininess .51
-				}
+				material Material {}
 				}
 				geometry	Box	{size 20 0.105 200}
 			}
@@ -958,12 +934,7 @@ Transform {
 			children [
 		Shape {
 			appearance Appearance {
-				material Material {
-					diffuseColor .32 .54 .26
-					specularColor .46 .46 .46
-					ambientIntensity .0933
-					shininess .51
-				}
+				material Material {}
 				}
 				geometry	Box	{size 5 0.105 200}
 			}
@@ -1517,7 +1488,7 @@ Transform {
 					shininess .51
 				}
 				texture	ImageTexture {
-					url "iarba.jpg"}
+					url "C:\Users\STUDENT\Desktop\GC\cox.jpg"}
 				}
 				geometry	Box	{size 225 0.1 200}
 			}
@@ -1582,12 +1553,7 @@ Transform {
 			children [
 		Shape {
 			appearance Appearance {
-				material Material {
-					diffuseColor .32 .54 .26
-					specularColor .46 .46 .46
-					ambientIntensity .0933
-					shininess .51
-				}
+				material Material {}
 				}
 				geometry	Box	{size 10 0.105 100}
 			}
@@ -1788,12 +1754,7 @@ Transform {
 			children [
 		Shape {
 			appearance Appearance {
-				material Material {
-					diffuseColor .32 .54 .26
-					specularColor .46 .46 .46
-					ambientIntensity .0933
-					shininess .51
-				}
+				material Material {}
 				}
 				geometry	Box	{size 4 0.105 77}
 			}
@@ -2072,7 +2033,7 @@ Transform {
 			appearance Appearance {
 				material Material {}
 				texture	ImageTexture {
-					url "iarba.jpg"}
+					url "C:\Users\STUDENT\Desktop\GC\cox.jpg"}
 				}
 				geometry	Box	{size 20 0.107 20}
 			}
@@ -2179,71 +2140,6 @@ Transform {
 
 	]
 }
-Group {
-	children [
-		Transform {
-			translation	82.5 -4 120
-			scale 2 2 2
-			children [
-				DEF	Tree Billboard {
-					children [
-						Shape {
-							appearance Appearance {
-								texture	ImageTexture {
-									url	"iarna.png"
-								}
-							}
-							geometry IndexedFaceSet {
-								solid FALSE
-								coordIndex [ 0 1 2 3 ]
-								coord Coordinate {
-									point [
-										-1.51 0 0
-									     1.51 0 0
-									     1.51 3 0
-									    -1.51 3 0]
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		]
-	}
-Group {
-	children [
-		Transform {
-			translation	140 -4 130
-			scale 2 2 2
-			children [
-				DEF	Tree Billboard {
-					children [
-						Shape {
-							appearance Appearance {
-								texture	ImageTexture {
-									url	"iarna.png"
-								}
-							}
-							geometry IndexedFaceSet {
-								solid FALSE
-								coordIndex [ 0 1 2 3 ]
-								coord Coordinate {
-									point [
-										-1.51 0 0
-									     1.51 0 0
-									     1.51 3 0
-									    -1.51 3 0]
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		]
-	} 
+
 		
-	 
 		
-	
