@@ -115,7 +115,8 @@ Transform {
 }
 ]
 }
-#C2
+
+#Camin nr2
 Transform {
 	translation	62 2 -5
 	scale 2.5 2 2.1
@@ -208,8 +209,9 @@ Transform {
 	]
 }
 ]
-}		
-#c1
+}
+		
+#Camin nr1
 Transform {
 	translation	13 1 -10
 	scale 1.6 2 1.6
@@ -505,7 +507,8 @@ Transform {
 	}
 			]
 },
-#C4
+
+#Camin nr4
 Transform {
 			translation	-245 2 -25
 			scale 1.5 2 1.5
@@ -593,6 +596,7 @@ Transform {
 		}
 	]
 }
+
 #B		 
 Transform {
 			translation	-110 -3 -40 
