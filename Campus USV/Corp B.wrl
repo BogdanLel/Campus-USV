@@ -1,0 +1,173 @@
+#VRML V2.0 utf8
+
+#corp B		 
+Transform {
+			translation	-110 -3 -40 
+			scale  2.5 2 2.5
+			children [
+			Group {
+children [		
+Transform {	
+		children Shape {
+				appearance DEF White Appearance {
+		material  DEF blue Material {}
+
+			}
+	 },	
+		}
+	]
+}
+Transform {	
+		children Shape {
+				appearance DEF Perete Appearance {
+	texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT FALSE 
+	    			repeatS TRUE 
+				} }
+
+			}
+	 },	
+		
+	
+Transform {	
+		children Shape {
+				appearance DEF Caramida Appearance {
+	texture	ImageTexture {
+				   url	"caramida.jpg"
+					repeatT FALSE 
+	    			repeatS TRUE 
+				} }
+
+			}
+	 },	
+	
+	
+
+
+		
+
+
+Transform {
+	translation	0 2.5 0
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 14 6 20}
+		}
+	]
+}
+Transform {
+	translation	0 2.5 0
+	children [
+		Shape {
+			appearance USE Perete
+			geometry Box {size 14 5.9 20.2}
+		}
+	]
+}
+Transform {
+	translation	-3.5 2.5 -12
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 7 6 5}
+		}
+	]
+}
+Transform {
+	translation	-3.5 2.5 -12
+	children [
+		Shape {
+			appearance USE Perete
+			geometry Box {size 7 5.9 5.2}
+		}
+	]
+}
+Transform {
+	translation	-3.5 2.5 -12
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 7 5.9 5.2}
+		}
+	]
+}
+Transform {
+	translation	-0.5 2.5 -10
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 7 6 5}
+		}
+	]
+}
+Transform {
+	translation	6 2.5 -8
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 2 6 5}
+		}
+	]
+}
+Transform {
+	translation	6.5389 2.5 -11.1
+	rotation 0 1 0 60
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 0.5 6 1.5}
+		}
+	]
+}
+Transform {
+	translation	5.77 2.5 -11
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 1.5 6 1.8}
+		}
+	]
+}
+Transform {
+	translation	-8 2.5 -5
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 2 6 2}
+		}
+	]
+}
+Transform {
+	translation	-5.3 2.5 12
+	rotation 0 1 0 -60
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 5 6 8}
+		}
+	]
+}
+Transform {
+	translation	-6.8 2.5 15
+	rotation 0 1 0 -60
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 6 6 6}
+		}
+	]
+}
+Transform {
+	translation	-3 2.5 15
+	rotation 0 1 0 -60
+	children [
+		Shape {
+			appearance USE White
+			geometry Box {size 2 6 2}
+		}
+	]
+}
+]
+},

@@ -10,10 +10,7 @@ Group {
 Shape{
 	appearance DEF White Appearance {
 		material  DEF blue Material {}
-		texture	ImageTexture {
-			url	"perete.jpg"
-		repeatT FALSE 
-	    repeatS TRUE }
+
 			}
 	 },		
  Transform {
@@ -22,10 +19,25 @@ Shape{
 	  children [
 
 		Shape{
-	appearance USE	White
+			appearance USE White
 	geometry Box {
 		size 9.0 5 20.0 } } ] }
-	
+
+		Transform	{
+			translation	-45 0  45
+			children [
+				Shape {
+					appearance Appearance {
+						texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT FALSE 
+	    			repeatS FALSE 
+				}
+			} 
+	geometry Box {
+		size 9 4.9 20.2 } } ]
+		}
+			
 Transform {
 	translation	-43 0  56
    
@@ -36,6 +48,21 @@ Transform {
 	geometry Box {
 		size 5.0 5 5.0 } } ] }
 
+		Transform {
+	translation	-43 0  56
+   
+	  children [
+
+		Shape{
+	appearance Appearance {
+						texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT FALSE 
+	    			repeatS TRUE 
+				} }
+	geometry Box {
+		size 5.0 4.9 5.2 } } ] }
+
 Transform {
 	translation	-36 0  43
 	   rotation	0 1 0 1.57
@@ -45,6 +72,21 @@ Transform {
 	appearance USE	White
 	geometry Box {
 		size 5.0 5 15 } } ] }
+
+Transform {
+	translation	-36 0  43
+	   rotation	0 1 0 1.57
+	  children [
+
+		Shape{
+		appearance Appearance {
+						texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT TRUE 
+	    			repeatS TRUE 
+				} }
+	geometry Box {
+		size 5.0 4.9 15.2 } } ] }
 		
 Transform {
 	translation	-24 0  45
@@ -56,6 +98,21 @@ appearance USE	White
 	geometry Box {
 		size 11.0 5 8.0 } } ] }
 
+		Transform {
+	translation	-24 0  45
+	
+	  children [
+
+		Shape{
+appearance Appearance {
+						texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT FALSE 
+	    			repeatS TRUE 
+				} }
+	geometry Box {
+		size 11.0 4.9 8.2 } } ] }
+
 
 Transform {
 	translation	-24 0  35
@@ -63,9 +120,24 @@ Transform {
 	  children [
 
 		Shape{
-	appearance USE	White
+	appearance USE White
 	geometry Box {
 		size 11.0 5 12.0 } } ] }
+
+	 Transform {
+	translation	-24 0  35
+	
+	  children [
+
+		Shape{
+		appearance Appearance {
+						texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT FALSE 
+	    			repeatS TRUE 
+				} }
+	geometry Box {
+		size 11.0 4.9 12.2 } } ] }
 	]
 }
 ]
