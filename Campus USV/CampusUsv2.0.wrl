@@ -1,0 +1,2652 @@
+#VRML V2.0 utf8
+Viewpoint {
+		   position	-20 50 300
+}
+Background {
+    skyColor [
+        0.0 0.2 0.7,
+        0.0 0.5 1.0,
+        1.0 1.0 1.0
+    ]
+    skyAngle [ 1.309, 1.571 ]
+    groundColor [
+        0.1 0.10 0.0,
+        0.4 0.25 0.2,
+        0.6 0.60 0.6,
+    ]
+    groundAngle [ 1.309, 1.571 ]
+}
+
+
+Group {
+	children [
+		Shape {
+			appearance DEF Perete Appearance {
+				material Material {}
+				texture	ImageTexture {
+					url	"perete.jpg"}
+			}
+	}
+]
+}
+
+Group {
+	children [
+		Shape {
+			appearance DEF Caramida Appearance {
+				material Material {}
+				texture	ImageTexture {
+					url	"caramida.jpg"}
+			}
+	}
+]
+}
+
+Transform{
+	translation	-30  -4.05 20
+	children [
+Group {
+	children [
+		Shape {
+			appearance DEF Platforma Appearance	{
+				material Material {}
+				}
+				geometry Box {
+					size 450 0.1 400
+					}
+				}
+			]
+		}
+	]
+}
+#sala de sport
+Transform {
+	translation	2 2 -2
+	scale 2.5 2 2.5
+	rotation 0 1 0 -0.1
+	children [
+Group {
+	children [
+		Shape {
+			appearance	Appearance {
+				material Material {}
+				texture	ImageTexture {
+					url	"C:\Users\STUDENT\Desktop\GC\perete.jpg"}
+			}
+		geometry Box {size 12 5 8}
+	}
+	 Shape {
+			appearance USE Perete
+		geometry Box {size 12 4.9 8.2}
+	}
+]
+}
+]
+}
+#Corpul D
+Transform {
+	translation	53.2 -2 -5
+	scale 2.5 2 2.5
+	children [
+Group{
+     
+	children [
+Shape{
+	appearance DEF White Appearance {
+		material  DEF blue Material {}
+		texture	ImageTexture {
+			url	"C:\Users\STUDENT\Desktop\GC\perete.jpg"
+		repeatT FALSE 
+	    repeatS TRUE }
+			}
+	 },
+Transform {
+	translation	-8 1.5 5 
+    rotation 0 1 0 1.57 
+
+    children [
+    Shape{
+	 appearance USE	White
+
+	 geometry Box {
+		 size  9.40 5.05 4.6
+ 
+	 } }  ] }
+	Transform {
+	translation	-8 1.5 5 
+    rotation 0 1 0 1.57 
+
+    children [
+    Shape{
+	 appearance USE	Perete
+
+	 geometry Box {
+		 size  9.40 4.95 4.8
+ 
+	 } }  ] }  
+Transform {
+	translation	-6 1.5 5.5 
+     children [
+
+    Shape{
+		appearance USE	White
+		
+	geometry Box {
+	    size 4.1 5 2.1 } } ] }
+
+		Transform {
+	translation	-6 1.5 5.5 
+     children [
+
+    Shape{
+		appearance USE	Perete
+		
+	geometry Box {
+	    size 4.1 4.9 2.3 } } ] }
+		
+#sala de sport
+Transform {
+	translation	-0.1 1.5  0 
+	children [
+
+	    Shape{
+	appearance USE	White
+	geometry Box {
+		size 20.4 5 4.9 } } ] }
+
+ Transform {
+	translation	-0.1 1.5  0 
+	children [
+
+	    Shape{
+	appearance USE	Perete
+	geometry Box {
+		size 20.4 4 4.9 } } ] }
+
+] 
+}
+
+]
+}
+
+##Camin nr2
+Transform {
+	translation	62 2 -5
+	scale 2.5 2 2.1
+	rotation 0 1 0 -0.06
+	children [
+Group {
+	children [
+Transform {
+	translation	-37 0  0
+    rotation 0 1 0 1.57
+	  children [
+
+		Shape{
+	appearance USE	White
+	geometry Box {
+		size 10.40 5.7 4.6 } } ] }
+
+
+		 Transform {
+	translation	-37 0 0
+    rotation 0 1 0 1.57
+	  children [
+			Shape{
+	appearance Appearance {
+			texture	ImageTexture {
+			url	"perete.jpg"
+		repeatT FALSE 
+	    repeatS TRUE }}
+	geometry Box {
+		size 10.40 5.6 4.8 } } ] }
+
+ Transform {
+	translation	-37 0  5
+    rotation 0 1 0 1.57
+	  children [
+
+		Shape{
+	appearance USE	White
+	geometry Box {
+		size 6.40 5.7 4.6 } } ] }
+
+		Transform {
+	translation	-37 0  5
+    rotation 0 1 0 1.57
+	  children [
+
+		Shape{
+			appearance Appearance {
+			texture	ImageTexture {
+			url	"perete.jpg"
+		repeatT FALSE 
+	    repeatS TRUE }
+	}		  
+	geometry Box {
+		size 6.40 5.6 4.8 } } ] }
+
+Transform {
+	translation	-44.5 0  3    
+	  children [
+
+		Shape{
+	appearance USE	White
+	geometry Box {
+		size 10.40 5.7 4.3 } } ] }
+	
+	Transform {
+	translation	-44.5 0  3    
+	  children [
+
+		Shape{
+	appearance Appearance {
+			texture	ImageTexture {
+			url	"perete.jpg"
+		repeatT FALSE 
+	    repeatS TRUE }}
+	geometry Box {
+		size 10.40 5.6 4.5 } } ] }	
+
+Transform {
+	translation	-46.4 0  15
+ rotation 0 1 0 1.57   
+	  children [
+
+		Shape{
+	appearance USE	White
+	geometry Box {
+		size 5 5.7 2.7 } } ] }
+	
+	Transform {
+	translation	-46.4 0  15
+ rotation 0 1 0 1.57   
+	  children [
+
+		Shape{
+		appearance Appearance {
+			texture	ImageTexture {
+			url	"perete.jpg"
+		repeatT FALSE 
+	    repeatS TRUE }}
+	geometry Box {
+		size 5 5.6 2.9 } } ] }	
+
+
+Transform {
+	translation	-47.9 0  5
+ rotation 0 1 0 1.57   
+	  children [
+
+		Shape{
+	appearance USE	White
+	geometry Box {
+		size 20.15 5.7 5.7 } } ] }
+
+		Transform {
+	translation	-47.9 0  5
+ rotation 0 1 0 1.57   
+	  children [
+
+		Shape{
+	appearance Appearance {
+			texture	ImageTexture {
+			url	"perete.jpg"
+		repeatT FALSE 
+	    repeatS TRUE }}
+	geometry Box {
+		size 20.15 5.6 5.7 } } ] }
+
+	]
+}
+]
+}	
+
+
+#restaurant
+Transform {
+	translation	44 2 -2
+	rotation 0 1 0 -0.06
+	scale 2 2 2
+	children [
+Group	{
+	children	[
+Transform {
+	translation	-65.15 0  25
+   
+	  children [
+
+		Shape{
+	appearance USE	White
+	geometry Box {
+		size 10.0 5.7 15.0 } } ] }
+
+		Transform {
+	translation	-65.15 0  25
+   
+	  children [
+
+		Shape{
+	appearance USE	Perete
+	geometry Box {
+		size 10.0 5.6 15.2 } } ] }
+
+	
+
+Transform {
+	translation	-63.65 0  35
+   
+	  children [
+
+		Shape{
+	appearance USE	White
+	geometry Box {
+		size 7.0 5.7 9.0 } } ] }
+
+		Transform {
+	translation	-63.65 0  35
+   
+	  children [
+
+		Shape{
+	appearance USE	Perete
+	geometry Box {
+		size 7.0 5.6 9.2 } } ] }
+	]
+}
+]
+}
+		
+#Camin nr1
+Transform {
+	translation	13 1 -10
+	scale 1.6 2 1.6
+	children [
+Group {
+	children [
+	
+ Transform {
+	translation	-45 0  45
+   
+	  children [
+
+		Shape{
+			appearance USE White
+	geometry Box {
+		size 9.0 5 20.0 } } ] }
+
+		Transform	{
+			translation	-45 0  45
+			children [
+				Shape {
+					appearance Appearance {
+						texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT FALSE 
+	    			repeatS FALSE 
+				}
+			} 
+	geometry Box {
+		size 9 4.9 20.2 } } ]
+		}
+			
+Transform {
+	translation	-43 0  56
+   
+	  children [
+
+		Shape{
+	appearance USE	White
+	geometry Box {
+		size 5.0 5 5.0 } } ] }
+
+		Transform {
+	translation	-43 0  56
+   
+	  children [
+
+		Shape{
+	appearance Appearance {
+						texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT FALSE 
+	    			repeatS TRUE 
+				} }
+	geometry Box {
+		size 5.0 4.9 5.2 } } ] }
+
+Transform {
+	translation	-36 0  43
+	   rotation	0 1 0 1.57
+	  children [
+
+		Shape{
+	appearance USE	White
+	geometry Box {
+		size 5.0 5 15 } } ] }
+
+Transform {
+	translation	-36 0  43
+	   rotation	0 1 0 1.57
+	  children [
+
+		Shape{
+		appearance Appearance {
+						texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT TRUE 
+	    			repeatS TRUE 
+				} }
+	geometry Box {
+		size 5.0 4.9 15.2 } } ] }
+		
+Transform {
+	translation	-24 0  45
+	
+	  children [
+
+		Shape{
+appearance USE	White
+	geometry Box {
+		size 11.0 5 8.0 } } ] }
+
+		Transform {
+	translation	-24 0  45
+	
+	  children [
+
+		Shape{
+appearance Appearance {
+						texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT FALSE 
+	    			repeatS TRUE 
+				} }
+	geometry Box {
+		size 11.0 4.9 8.2 } } ] }
+
+
+Transform {
+	translation	-24 0  35
+	
+	  children [
+
+		Shape{
+	appearance USE White
+	geometry Box {
+		size 11.0 5 12.0 } } ] }
+
+	 Transform {
+	translation	-24 0  35
+	
+	  children [
+
+		Shape{
+		appearance Appearance {
+						texture	ImageTexture {
+				   url	"perete.jpg"
+					repeatT FALSE 
+	    			repeatS TRUE 
+				} }
+	geometry Box {
+		size 11.0 4.9 12.2 } } ] }
+	]
+}
+]
+}
+
+#corp a
+Transform {
+			translation	40 -2 50
+			scale 3.5 2 3.5
+			children [
+			Group {
+	children [
+		
+				Transform {	
+						translation	2.0 1.5 -4.0
+						children Shape {
+							appearance DEF Cladire Appearance {
+							material Material {}
+							texture	ImageTexture {
+								url	"C:\Users\STUDENT\Desktop\GC\perete.jpg" }
+							}
+							geometry Box {
+								size 16 5 2
+								}
+							}
+						}
+
+						Transform {	
+						translation	2.0 1.5 -4.0
+						children Shape {
+							appearance USE Perete
+							geometry Box {
+								size 16 4.9 2.2
+								}
+							}
+						}
+
+				Transform {
+						translation	-6.5 1.5 0.0
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 3 5 10
+								}
+							}
+						}
+
+						Transform {
+						translation	-6.5 1.5 0.0
+						children Shape {
+							appearance USE Perete
+							
+							geometry Box {
+								size 3 4.9 10.2
+								}
+							}
+						}
+
+						#A Bolt
+				Transform {				
+						translation	6.5 1.5 0.0
+						children Shape {
+						appearance USE	White
+							geometry Box {
+								size 5 5 10
+							}
+						}
+					}
+
+					Transform {				
+						translation	6.5 1.5 0.0
+						children Shape {
+						appearance USE	Perete
+							geometry Box {
+								size 5 4.9 10.2
+							}
+						}
+					}
+
+				Transform {
+						translation	4 1.5 -2.5
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 1 5 3
+								}
+							}
+						}
+						Transform {
+						translation	4 1.5 -2.5
+						children Shape {
+							appearance USE	Perete
+							
+							geometry Box {
+								size 1 4.9 3.2
+								}
+							}
+						}
+
+				Transform {
+						translation	4 1.5 4
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 1 5 3
+								}
+							}
+						}
+
+							Transform {
+						translation	4 1.5 4
+						children Shape {
+							appearance USE	Perete 
+							
+							geometry Box {
+								size 1 4.9 3.2
+								}
+							}
+						}
+
+				Transform {
+						translation	10 1.5 -8.0
+						children Shape {
+							appearance USE	White
+							geometry Box {
+								size 2 5 10
+							}
+						}
+					}
+
+						Transform {
+						translation	10 1.5 -8.0
+						children Shape {
+							appearance USE	Perete
+							geometry Box {
+								size 2 4.9 10.2
+							}
+						}
+					}
+
+				 Transform {			  
+						translation	6.0 1.5 6
+						children Shape {
+							appearance USE	White
+							geometry Box {
+								size 18 5 2
+							}
+						}
+					}
+
+					Transform {			  
+						translation	6.0 1.5 6
+						children Shape {
+							appearance USE	Perete
+							geometry Box {
+								size 18 4.9 2.2
+							}
+						}
+					}
+
+				 Transform {
+						translation	4.2 1.5 5.2
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 5 5 2
+								}
+							}
+						}
+
+						 Transform {
+						translation	4.2 1.5 5.2
+						children Shape {
+							appearance USE	Perete 
+							
+							geometry Box {
+								size 5 4.9 2.2
+								}
+							}
+						}
+
+				 Transform {
+						translation	7.5 1.5 5.2
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 5 5 2
+								}
+							}
+						}
+
+						Transform {
+						translation	7.5 1.5 5.2
+						children Shape {
+							appearance USE	Perete 
+							
+							geometry Box {
+								size 5 4.9 2.2
+								}
+							}
+						}
+
+						#aula
+				Transform {					 
+						translation	12.5 1.5 8
+						children Shape {
+							appearance USE	White
+							geometry Box {
+								size 6 5 6
+							}
+						}
+					}
+						Transform {					 
+						translation	12.5 1.5 8
+						children Shape {
+							appearance USE	Perete
+							geometry Box {
+								size 6 4.9 6.2
+							}
+						}
+					}
+
+				Transform {
+						translation	-5 1.5 1.6
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 3 5 1
+								}
+							}
+						}
+						Transform {
+						translation	-5 1.5 1.6
+						children Shape {
+							appearance USE	Perete
+							
+							geometry Box {
+								size 3 4.9 1.2
+								}
+							}
+						}
+
+						#spre corpul E
+				Transform {	   
+						translation	-6.5 1.5 6
+						children Shape {
+							appearance USE	White
+							geometry Box {
+								size 1 5 10
+							}
+						}
+					}
+					Transform {	   
+						translation	-6.5 1.5 6
+						children Shape {
+							appearance USE	Perete
+							geometry Box {
+								size 1 4.9 10.2
+							}
+						}
+					}
+
+			    Transform {
+						translation	-15 1.5 10
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 18 5 2
+								}
+							}
+						}
+						Transform {
+						translation	-15 1.5 10
+						children Shape {
+							appearance USE	Perete
+							
+							geometry Box {
+								size 18 4.9 2.2
+								}
+							}
+						}
+
+				Transform {
+					translation	 -10.7 1.5 13
+					children Shape {
+						appearance USE	White
+						
+						geometry Cylinder {
+							radius 3.5
+							height 5
+						}
+					 }
+				  }
+
+				  Transform {
+					translation	 -10.7 1.5 13
+					children Shape {
+						appearance USE	Perete
+						
+						geometry Cylinder {
+							radius 3.6
+							height 4.9
+						}
+					 }
+				  }
+
+				Transform {
+						translation	-8.269 1.5 12
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 2 5 3
+								}
+							}
+						}
+
+						Transform {
+						translation	-8.269 1.5 12
+						children Shape {
+							appearance USE	Perete 
+							
+							geometry Box {
+								size 2 4.9 3.2
+								}
+							}
+						}
+
+						 #blocul E
+				 Transform {				 
+						translation	-17 1.5 13
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 14 5 6.8
+								}
+							}
+						}
+
+						Transform {				 
+						translation	-17 1.5 13
+						children Shape {
+							appearance USE	Perete
+							
+							geometry Box {
+								size 14 4.9 7
+								}
+							}
+						}
+				Transform {
+						translation	-26 1.5 15
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 5 5 6
+								}
+							}
+						}
+
+						Transform {
+						translation	-26 1.5 15
+						children Shape {
+							appearance USE	Perete
+							
+							geometry Box {
+								size 5 4.9 6.2
+								}
+							}
+						}
+
+				Transform {
+						translation	-26.7 1.5 16
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 5.5 5 6
+								}
+							}
+						}
+						Transform {
+						translation	-26.7 1.5 16
+						children Shape {
+							appearance USE	Perete 
+							
+							geometry Box {
+								size 5.5 4.9 6.2
+								}
+							}
+						}
+
+				Transform {
+						translation	-29.5 1.5 16.5
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 3 5 3
+								}
+							}
+						}
+							Transform {
+						translation	-29.5 1.5 16.5
+						children Shape {
+							appearance USE	Perete 
+							
+							geometry Box {
+								size 3 4.9 3.2
+								}
+							}
+						}
+
+				Transform {
+						translation	-30 1.5 13.4
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 1.6 5 0.8
+								}
+							}
+						}
+							Transform {
+						translation	-30 1.5 13.4
+						children Shape {
+							appearance USE	Perete
+							
+							geometry Box {
+								size 1.6 4.9 1
+								}
+							}
+						}
+
+				Transform {
+						translation	-20 1.5 16.8
+						children Shape {
+							appearance USE	White
+							
+							geometry Box {
+								size 12 5 1
+								}
+							}
+						}
+						Transform {
+						translation	-20 1.5 16.8
+						children Shape {
+							appearance USE	Perete
+							
+							geometry Box {
+								size 12 4.9 1.2
+								}
+							}
+						}
+
+				Transform {						
+						translation	-11 1.5 16.8
+						children Shape {
+							appearance USE	White 
+							
+							geometry Box {
+								size 2 5 1
+								}
+							}
+						}
+						Transform {						
+						translation	-11 1.5 16.8
+						children Shape {
+							appearance USE	Perete 
+							
+							geometry Box {
+								size 2 4.9 1.2
+								}
+							}
+						}
+
+		]
+	}
+			]
+},
+
+#Camin nr4
+Transform {
+			translation	-245 2 -25
+			scale 1.5 2 1.5
+			children [
+			Group {
+	children [
+		Transform {
+			translation	0 0 5 
+			children [
+			Shape {
+				appearance USE	White
+				geometry Box {size 5.0 6 15.0}
+			}
+			]
+		},
+		Transform {
+			translation	15.0 0 0
+			children [
+				Shape {
+					appearance USE	White
+					geometry Box {size 35.0 6 10.0}
+				}
+			]
+		},
+		Transform {
+			translation	14 0 -15
+			children [
+				Shape {
+					appearance USE	White
+					geometry Box {size 18.0 6 35.0}
+				}
+			]
+		},
+		Transform {
+			translation	15.0 0 -35
+			children [
+				Shape {
+					appearance USE	White
+					geometry Box {size 35.0 6 10.0}
+				}
+			]
+		},
+		Transform {
+			translation	0 0 -40 
+			children [
+			Shape {
+				appearance USE	White
+				geometry Box {size 5.0 6 20.0}
+			}
+			]
+		},
+		Transform {
+			translation	0 0 -17 
+			children [
+			Shape {
+				appearance USE	White
+				geometry Box {size 10.0 6 5.0}
+			}
+			]
+		},
+	]
+}
+			]
+},
+
+#teren
+Group {
+	children [
+Transform {
+			translation	-165 -3.7 -50
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				texture	ImageTexture {
+					url "C:\Users\STUDENT\Desktop\GC\teren.png"}
+				}
+				geometry	Box	{size 40 0.5 60}
+			}
+		]
+}
+			]
+		}
+	]
+}
+
+#corp B		 
+Transform {
+			translation	-110 -3 -40 
+			scale  2.5 2 2.5
+			children [
+			Group {
+children [		
+Transform {	
+		children Shape {
+			appearance USE White
+
+				
+							
+			}
+		}
+	]
+}
+Transform {
+	translation	0 2.5 0
+	children [
+		Shape {
+			appearance USE Cladire
+			geometry Box {size 14 6 20}
+		}
+	]
+}
+Transform {
+	translation	-3.5 2.5 -12
+	children [
+		Shape {
+			appearance USE Cladire
+			geometry Box {size 7 6 5}
+		}
+	]
+}
+Transform {
+	translation	-0.5 2.5 -10
+	children [
+		Shape {
+			appearance USE Cladire
+			geometry Box {size 7 6 5}
+		}
+	]
+}
+Transform {
+	translation	6 2.5 -8
+	children [
+		Shape {
+			appearance USE Cladire
+			geometry Box {size 2 6 5}
+		}
+	]
+}
+Transform {
+	translation	6.5389 2.5 -11.1
+	rotation 0 1 0 60
+	children [
+		Shape {
+			appearance USE Cladire
+			geometry Box {size 0.5 6 1.5}
+		}
+	]
+}
+Transform {
+	translation	5.77 2.5 -11
+	children [
+		Shape {
+			appearance USE Cladire
+			geometry Box {size 1.5 6 1.8}
+		}
+	]
+}
+Transform {
+	translation	-8 2.5 -5
+	children [
+		Shape {
+			appearance USE Cladire
+			geometry Box {size 2 6 2}
+		}
+	]
+}
+Transform {
+	translation	-5.3 2.5 12
+	rotation 0 1 0 -60
+	children [
+		Shape {
+			appearance USE Cladire
+			geometry Box {size 5 6 8}
+		}
+	]
+}
+Transform {
+	translation	-6.8 2.5 15
+	rotation 0 1 0 -60
+	children [
+		Shape {
+			appearance USE Cladire
+			geometry Box {size 6 6 6}
+		}
+	]
+}
+Transform {
+	translation	-3 2.5 15
+	rotation 0 1 0 -60
+	children [
+		Shape {
+			appearance USE Cladire
+			geometry Box {size 2 6 2}
+		}
+	]
+}
+]
+},
+
+#C
+Transform {
+	translation	-55 2 -60
+	scale 2 2 2
+	rotation 0 1 0 0.1
+	children [
+	Group {
+	children [
+		Transform {
+			children [
+				Shape {
+				appearance USE	White
+					geometry Box {size 7.0 6 25.0}
+				}
+			]
+		},
+		Transform {
+			translation	-4 0 -2.5
+			children [
+				Shape {
+				appearance USE	White
+					geometry Box {size 3.0 6 20.0}
+				}
+			]
+		}
+	]
+}
+	]
+},
+
+#F
+Transform {
+	translation	-12 1 -70
+	scale 2 2 2.2
+	children [
+	Group {
+	children [
+		Transform {
+			translation	0 0 -2
+			children [
+				Shape {
+					appearance USE	White
+					geometry Box {size 15.0 5 7.0}
+				}
+			]
+		},
+		Transform {
+			translation	0 0 -16
+			children [
+				Shape {
+				appearance USE	White
+					geometry Box {size 15.0 5 5.0}
+				}
+			]
+		},
+		Transform {
+			translation	3 0 -10
+			children [
+				Shape {
+					appearance USE	White
+					geometry Box {size 5.0 5 10.0}
+				}
+			]
+		}
+	]
+}
+	]
+}
+#H
+Transform {
+	translation	70 -2 -65
+	scale 3.5 2 3.5
+	rotation 0 1 0 0.1
+	children [
+	Group {
+	children [
+		Transform {
+			children [
+		Shape {
+			appearance USE	White
+		}
+	]
+	},
+		Transform {
+		translation	0 1.5 0 
+		children [
+			Shape {
+				appearance USE	White
+			geometry Box {size 13.0 5 4.0}
+		}
+		]
+	},
+	Transform {
+		translation	0 1.5 -2 
+		children [
+			Shape {
+				appearance USE	White
+			geometry Box {size 1.0 5 1.0}
+		}
+		]
+	},
+		Transform {
+		translation	 0 1.5 2
+		children [
+			Shape {
+				appearance USE	White
+			geometry Box {size 2.0 5 2.0}
+		}
+		]
+	}
+	]
+}
+
+	]
+}
+#obs
+Transform {
+translation	120 -2 -15
+scale 2.5 2 2.5
+	children [
+Group {
+	children [
+		Transform {
+			translation	0 1.5 0
+			children [
+				Shape {
+					appearance Appearance {material	Material {}
+						texture	ImageTexture {url "perete.jpg"}
+					}
+						geometry Cylinder {
+					radius 5.0 
+					height 5.0}
+				}
+			]
+		},
+		Transform {
+		translation	0 4.5 0
+		children [
+			Shape {
+				appearance Appearance {
+					material Material {}
+					texture	ImageTexture {
+						url	"C:\Users\STUDENT\Desktop\GC\obs.jpg"}
+				}
+				geometry Sphere	{radius 4.5}
+			}
+		]
+		}
+	]
+}
+	]
+}
+#IARBA dj 
+Group {
+	children [
+Transform {
+			translation	82.5 -4 120
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material  Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+				texture	ImageTexture {
+					url "iarba.jpg"}
+				}
+				geometry	Box	{size 225 0.1 200}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	95 -4 210
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+				}
+				geometry	Box	{size 200 0.105 20}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	95 -4 195
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+				}
+				geometry	Box	{size 200 0.105 5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	185 -4 120
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+				}
+				geometry	Box	{size 20 0.105 200}
+			}
+		]
+}
+			]
+		}
+		  Transform {
+			translation	170 -4 120
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+				}
+				geometry	Box	{size 5 0.105 200}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	175 -4 195
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 5 0.105 15}
+			}
+		]
+}
+			]
+		}
+
+		Transform {
+			translation	0 -4 55
+			rotation 0 1 0 -0.1
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 4 0.105 40}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	12 -4 55
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 6 0.105 50}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	44 -4 30
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 70 0.105 20}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	125 -4 40
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 90 0.105 6}
+			}
+		]
+}
+			]
+		}
+			Transform {
+			translation	125 -4 60
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 90 0.105 6}
+			}
+		]
+}
+			]
+		}
+			Transform {
+			translation	85 -4 50
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 10 0.105 20}
+			}
+		]
+}
+			]
+		}
+			Transform {
+			translation	75 -4 48
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 10 0.105 5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	8 -4 103
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Cylinder	{height.105
+				                         radius 10}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	36 -4 90
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 50 0.105 20}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	58 -4 85
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 20 0.105 10}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	38.5 -4 105
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 16 0.105 13}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	22 -4 70
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 16 0.105 28}
+			}
+		]
+}
+			]
+		}
+		
+		Transform {
+			translation	40 -4 105
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				texture	ImageTexture {
+					url "C:\Users\STUDENT\Desktop\GC\cox.jpg"}
+				}
+				geometry	Cylinder	{height 0.12
+				                         radius 5}
+			}
+		]
+}
+			]
+		}
+
+			Transform {
+			translation	174 -4 95
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 4 0.105 35}
+			}
+		]
+}
+			]
+		}
+			Transform {
+			translation	105 -4 110
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 130 0.105 6}
+			}
+		]
+}
+			]
+		}
+			Transform {
+			translation	32 -4 115
+			rotation 0 1 0 0.6
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 92 0.105 8}
+			}
+		]
+}
+			]
+		}
+			Transform {
+			translation	70 -4 160
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance  Appearance {
+				material Material {}
+				}
+				geometry	Cylinder	{radius	25
+			                             height 0.105 }
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	100 -4 130
+			rotation 0 1 0 0.6
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 70 0.105 6}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	50 -4 128
+			rotation 0 1 0 -0.6
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 50 0.105 6}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	140 -4 175
+			rotation 0 1 0 -0.3
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 100 0.105 6}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	125 -4 155
+			rotation 0 1 0 -1.8
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 26 0.105 5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	121 -4 132
+			rotation 0 1 0 -1
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 28 0.105 5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	70 -4 185
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 6 0.105 15}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	30 -4 170
+			rotation 0 1 0 -1.2
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 6 0.105 70}
+			}
+		]
+}
+			]
+		}Transform {
+			translation	10 -4 155
+			rotation 0 1 0 0.2
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 6 0.105 45}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	62 -4 160
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance  Appearance {
+				material Material {	}
+				texture	ImageTexture {
+					url "C:\Users\STUDENT\Desktop\GC\cox.jpg"}
+				}
+				geometry	Cylinder	{radius	12
+			                             height 0.11 }
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	62 -4 160
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance  Appearance {
+				material Material {	}
+				}
+				geometry	Cylinder	{radius	8
+			                             height 0.115 }
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	62 -4 160
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance  Appearance {
+				material Material {	}
+				texture	ImageTexture {
+					url "C:\Users\STUDENT\Desktop\GC\cox.jpg"}
+				}
+				geometry	Cylinder	{radius	4
+			                             height 0.12 }
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	62 -4 150
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 4 0.125 6}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	72 -4 160
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 6 0.125 4}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	52 -4 162
+			rotation 0 1 0 -1.2
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 4 0.125 6}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	67 -4 172
+			rotation 0 1 0 -1.2
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				texture	ImageTexture {
+					url	"C:\Users\STUDENT\Desktop\GC\cox.jpg"}
+				}
+				geometry	Box	{size 6 0.125 6}
+			}
+		]
+}
+			]
+		}
+
+
+
+
+
+	]
+}
+#iarba sj
+Group {
+	children [
+Transform {
+			translation	-142.5 -4 120
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+				texture	ImageTexture {
+					url "C:\Users\STUDENT\Desktop\GC\cox.jpg"}
+				}
+				geometry	Box	{size 225 0.1 200}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-180 -4 120
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+				}
+				geometry	Box	{size 150 0.105 200}
+			}
+		]
+}
+			]
+		}
+			Transform {
+			translation	-90 -4 210
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 170 0.105 20}
+			}
+		]
+}
+			]
+		}
+			Transform {
+			translation	-90 -4 195
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 170 0.105 5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-4 -4 150
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+				}
+				geometry	Box	{size 10 0.105 100}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-105 -4 185
+			rotation 0 1 0 90
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 42 0.105 20}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-90 -4 150
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 120 0.105 40}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-95 -4 168
+			rotation 0 1 0 0.8
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 18 0.105 6}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-90 -4 170
+			rotation 0 1 0 -0.6
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 15 0.105 6}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-55 -4 169.6
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 62 0.105 14}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-38 -4 178
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 20 0.105 14}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-30 -4 145
+			rotation 0 1 0 0.08
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 8 0.105 8}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-30 -4 137.8
+			rotation 0 1 0 0.08
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 20 0.105 15}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-20 -4 132.5
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 12 0.105 5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-20 -4 132
+			rotation 0 1 0 0.08
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 6 0.105 4.8}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-95 -4 120
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 20 0.105 60}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-80 -4 103
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 150 0.105 30}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-100 -4 50
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor .32 .54 .26
+					specularColor .46 .46 .46
+					ambientIntensity .0933
+					shininess .51
+				}
+				}
+				geometry	Box	{size 4 0.105 77}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-90 -4 60
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 17 0.105 24}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-76 -4 50
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 4 0.105 77}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-80 -4 20
+			rotation 0 1 0 -0.06
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 50 0.105 40}
+			}
+		]
+}
+			]
+		}
+Transform {
+			translation	-80 -4 85
+			rotation 0 1 0 -0.02
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 44 0.105 2.5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-86 -4 80
+			rotation 0 1 0 60
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 2 0.105 6.5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-86 -4 75
+			rotation 0 1 0 -60
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 2 0.105 6.5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-93 -4 80
+			rotation 0 1 0 -60
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 2 0.105 6.5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-93 -4 75
+			rotation 0 1 0 60
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 2 0.105 6.5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-64.7 -4 90
+			
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 12 0.105 22}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-64 -4 45
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 20 0.105 2}
+			}
+		]
+}
+			]
+		} Transform {
+			translation	-60 -4 42
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 4 0.105 5}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-50 -4 33
+			rotation 0 1 0 -0.08
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 140 0.105 4}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-15 -4 73
+			rotation 0 1 0 -0.08
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 65 0.105 4}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	-40 -4 65
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 7 0.105 9}
+			}
+		]
+}
+			]
+		}
+			Transform {
+			translation	-28 -4 78
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 4 0.105 9}
+			}
+		]
+}
+			]
+		}
+			Transform {
+			translation	-12 -4 55
+			rotation 0 1 0 -0.1
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 4 0.105 40}
+			}
+		]
+}
+			]
+		}
+
+
+
+
+
+
+
+
+	]
+}
+#iarba ds
+Group {
+	children [
+Transform {
+			translation	60 -4 20
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				texture	ImageTexture {
+					url "C:\Users\STUDENT\Desktop\GC\cox.jpg"}
+				}
+				geometry	Box	{size 20 0.107 20}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	123.5 -4 -14
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				texture	ImageTexture {
+					url "C:\Users\STUDENT\Desktop\GC\cox.jpg"}
+				}
+				geometry	Box	{size 88 0.102 70}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	85 -4 -6
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 13 0.105 88}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	95 -4 -10
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 10 0.105 80}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	118 -4 -25
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Cylinder	{height 0.105
+				radius 30}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	150 -4 -20
+			rotation 0 1 0 -1.1
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 15 0.109 48}
+			}
+		]
+}
+			]
+		}
+		Transform {
+			translation	150 -4 -0
+			rotation  0 1 0 0.8
+			children [
+					Transform {
+			children [
+		Shape {
+			appearance Appearance {
+				material Material {}
+				}
+				geometry	Box	{size 18 0.109 65}
+			}
+		]
+}
+			]
+		}
+
+
+	]
+}
+
+		
+		
